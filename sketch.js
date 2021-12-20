@@ -20,16 +20,10 @@ function setup() {
   amp = new p5.Amplitude();
 }
 
-// function loaded() {
-//   innerSound.play();
-//   movingSound.play();
-//   outsideSound.play(); //사운드 재생
-// }
-
-function mousePressed(){
+function loaded() {
   innerSound.play();
   movingSound.play();
-  outsideSound.play();
+  outsideSound.play(); //사운드 재생
 }
 
 function draw() {
